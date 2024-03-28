@@ -1,10 +1,10 @@
 # SiriEmulation
-Comprehensive machine learning voice command classification model through intent classification and Named Entity Recognition (NER) using TensorFlow and a pre-trained Bidirectional Encoder Representations from Transformers (BERT) model. Developed in December 2022 alongside Inspirit AI.
+Comprehensive machine learning voice command classification model through intent classification and Named Entity Recognition (NER) using TensorFlow and a trained Bidirectional Encoder Representations from Transformers (BERT) model. Developed in December 2022 alongside Inspirit AI.
 
 ## Details
 The model achieves its function by:
 1. Performing token-level classification to extract named entities from the given voice command using a BIO tagging scheme.
-2. Using a pre-trained BERT model to extract features of the voice command including dropout, intent classifier, and slot classifier layers to predict the overall intent of the voice command based on extracted named entities.
+2. Using a trained BERT model to extract features of the voice command including dropout, intent classifier, and slot classifier layers to predict the overall intent of the voice command based on extracted named entities.
 
 ## Limitations
 1. The BERT model is pre-trained primarily on English so other models like XLM or CamemBERT would have to be used to process commands in other languages.
