@@ -9,4 +9,4 @@ The model achieves its function by:
 ## Limitations
 1. The BERT model is pre-trained primarily on English so other models like XLM or CamemBERT would have to be used to process commands in other languages.
 2. Existing biases in the pre-trained BERT model have not been audited.
-3. The BERT model has many parameters which are very computationally intensive to run. Simpler architectures (e.g. CNNs or LSTMs might have a better speed / accuracy trade-off).
+3. The BERT model has many parameters which are very computationally intensive to run. Simpler architectures (e.g. CNNs or LSTMs) might have a better speed/accuracy trade-off.
